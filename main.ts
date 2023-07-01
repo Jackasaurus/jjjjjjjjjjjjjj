@@ -77,12 +77,3 @@ input.onButtonPressed(Button.B, function () {
         `)
     basic.showString("Jack")
 })
-input.onGesture(Gesture.Shake, function () {
-    basic.showLeds(`
-        . . . . .
-        . # . # .
-        # . . . #
-        . # # # .
-        . . . . .
-        `)
-})
